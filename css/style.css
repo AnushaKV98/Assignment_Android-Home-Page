@@ -86,3 +86,56 @@
     }
 }
 /*---------------- FIRST SECTION ENDS -|| WELCOME -----------------------*/
+
+/* ------------------- DOWNLOAD-LAUNCH-VIEW  SECTION BEGINS---------------------------- */
+.container1{
+    height: 100%;
+    margin: 0 15% 0 15%;
+
+}
+.boxes-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    padding-top: 50px;
+}
+.boxes-div .box{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #D7EFFE;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+}
+.boxes-div .box img{
+    width: 48px;
+    height: 48px;
+}
+
+.boxes .box .text{
+    font-weight: bold;
+}
+
+@media screen and (max-width : 700px){
+    .container1{
+        margin: 20px;
+        padding: 0px;
+    }
+
+
+   .boxes-div{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    
+    
+   }
+   .boxes-div .box{
+    margin-bottom: 20px;
+    max-width: 100%;
+   }
+}
+/* --------------------- DOWNLOAD-LAUNCH-VIEW   SECTION ENDS---------------------------------- */

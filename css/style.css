@@ -767,3 +767,259 @@
 
 
 /* ------------------------EXPLORE MORE ENDS---------------------------------- */
+
+
+
+/* --------------------------- LATEST NEWS AND VIDEOS SECTION BEGINS----------------- */
+.latest-news-div{
+    width: 100%;
+    height: 1350px;
+    color: black;
+    background-color: #F8F9FA;
+    position: relative;
+    margin-top: 20px;
+}
+.latest-news-div .latest-news-box{
+    width: 260px;
+    height: 870px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.latest-news-div .image{
+    margin: 10px;
+}
+.latest-news-div .image img{}
+.latest-news-div .heading{
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    line-height: 1.0;
+
+}
+.latest-news-div .content{
+    color: #3C4043;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.latest-news-div .button{
+   
+}
+.latest-news-div .button button{
+    width: 90%;
+    height: 50px;
+    background-color: #3DDC84;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1;
+    border-radius: 25%;
+    padding: 10px 24px;
+    border: none;
+}
+
+.latest-news-div .now-android {
+   
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+
+}
+.latest-news-div .stylus{
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+}
+.latest-news-div .android-hdr{
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+    top: 450px;
+}
+.latest-news-div .ease-of-dev{
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+    top: 450px;
+}
+.latest-news-div .latest-videos{
+    position: absolute;
+    width: 260px;
+    height: 430px;
+    top: 900px;
+}
+.latest-news-div .yt-android1{
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+    top: 900px;
+}
+.latest-news-div .yt-android2{
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+    top: 900px;
+}
+.latest-news-div   .main-image img{
+    width: 100%;
+   height: 200px;
+   object-fit: cover;
+
+}
+.latest-news-div  .platform{
+    width: 100%;
+    margin: 10px 0px ;
+    padding: 10px 0px;
+}
+.latest-news-div .heading{
+    font-size: 30px;
+}
+
+.latest-news-div .content{
+    padding-top: 20px;
+    color: #073042;
+    font-weight: bold;
+}
+
+.latest-news-div .image-side img{
+    margin: 10px;
+}
+.latest-news-div .heading-side {
+    font-size: 38px;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    line-height: 1.0;
+    padding: 5px 0 10px 0px;
+}
+.latest-news-div .content-side {
+    color: #3C4043;
+    line-height: 1.5;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.latest-news-div .button-side{
+    width: 150px;
+    border-radius: 25px;
+}
+.latest-news-div .button-side button{
+    width: 100%;
+    height: 45px;
+    background-color: #3DDC84;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1.5;
+    border-radius: 25px;
+    border: none;
+}
+@media screen and (max-width : 700px){
+    .latest-news-div{
+        width: 100%;
+        height: 2990px;
+        position: relative;
+    }
+    .latest-news-div .latest-news-box{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        padding-bottom: 10px;
+
+    }
+    
+    .latest-news-div .latest-news-box img{
+        width: 80px;
+    }
+    .latest-news-div  .heading-side{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .latest-news-div .button-side{
+        width: 100%;
+    }
+    .latest-news-div .now-android{
+        width: 100%;        
+        height: 350px;
+        position: absolute;
+        top: 280px;
+        left: 0px;
+        margin-top: 20px;
+
+
+    }
+    .latest-news-div .stylus{
+        width: 100%;
+        height: 350px;
+        top: 650px;
+        left: 0px;
+        margin-bottom: 2px;
+
+    }
+    .latest-news-div .android-hdr{
+        width: 100%;
+        height: 350px;
+        position: absolute;
+        top: 1000px;
+        left: 0px;
+        margin-bottom: 2px;
+
+    }
+    .latest-news-div .ease-of-dev{
+        width: 100%;
+        height: 450px;
+        position: absolute;
+        top: 1350px;
+        left: 0px;
+        margin-bottom: 2px;
+
+    }
+    .latest-news-div .latest-videos{
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        top: 1765px;
+        left: 0px;
+
+    }
+    .latest-news-div .latest-videos .button{
+        width: 150px;
+        border-radius: 25%;
+    }
+    .latest-news-div .yt-android1{
+        width: 100%;
+        height: 500px;
+        position: absolute;
+        top: 2100px;
+        left: 0px;
+        margin-bottom: 10px;
+        }
+    .latest-news-div .yt-android2{
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        top: 2520px;
+        left: 0px;
+    }
+    .latest-news-div .heading{
+        font-size: 25px;
+    }
+    .latest-news-div .platform{
+        color: #5F6368;
+
+    }
+    .latest-news-div .content{
+        color: #073042;
+
+    }
+    
+}
+
+
+/* ---------------------------LATEST NEWS AND VIDEOS SECTION ENDS------------------- */

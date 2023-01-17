@@ -1172,3 +1172,63 @@ a:hover{
     
 }
 /* ----------------------------------FOOTER 1 ENDS------------------------------------- */
+
+/* ------------------------------FOOTER 2 BEGINS-------------------------------------- */
+
+.footer2-div{
+    margin: 10px;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;   
+    
+}
+.footer2-div .box{   
+    width: 250px;
+    height: 200px;
+ 
+}
+.footer2-div .box .heading{
+    margin:  15px 0px;
+    color: #5f6368;
+}
+
+.footer2-div .box .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 2.3;
+    font-size: medium;
+    color: #202124;
+    font-weight :100;
+    font-size: 14px;
+}
+
+@media screen and (max-width : 700px){
+    .footer2-div{
+        width: auto;
+        height: 1500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0;
+    }
+    .footer2-div .box{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+    .footer2-div .box .heading{
+        height: auto;        
+
+    }
+    .footer2-div .box .content{
+        margin: 0px;
+
+    }
+}
+
+/* ----------------------------------FOOTER 2 ENDS------------------------------------- */

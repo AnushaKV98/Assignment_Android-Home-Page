@@ -139,3 +139,255 @@
    }
 }
 /* --------------------- DOWNLOAD-LAUNCH-VIEW   SECTION ENDS---------------------------------- */
+
+
+
+/* ---------------FEATURED BOXES SECTION BEGINS------------------------------ */
+.container1 .featured-div{
+    display:  flex;
+    justify-content: space-between;
+    height: 750px;
+    padding : 20px 0px 50px 0px;
+}
+
+.container1 .featured-div .box-featured-left{
+    background-color: #073042;     
+    width: 50%;
+    color: #FFFFFF;
+    padding: 40px;
+    display: flex;
+}
+.container1 .featured-div .gap-div{
+    width : 50px;
+    background-color: #FFFFFF;
+}
+
+.container1 .featured-div .box-featured-right{
+    background-color: #D7EFFE;
+    width: 50%;
+    color: black;
+    padding: 40px;
+    display: flex;
+
+}
+.container1 .featured-div .left-text-div{
+    width: 50%;
+}
+.container1 .featured-div  .right-img-div{
+    position: relative;
+}
+.container1 .featured-div  .right-img-div img{
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    width: 250px;
+  
+}
+
+.container1 .featured-div .featured{
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+.container1 .featured-div .heading{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
+
+.container1 .featured-div .box-featured-left .content{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 190px;
+
+}
+.container1 .featured-div .box-featured-left .left-text-div .buttonclass{
+    padding-bottom: 50px;
+}
+.container1 .featured-div .box-featured-left .left-text-div button{
+        width: 130px;
+        height: 50px; 
+        border: 2px #FFFFFF solid;
+        color: #FFFFFF;
+        background-color: #073042;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 25px;
+        font-size: 15px;
+        font-weight: 600;
+        
+
+}
+.container1 .featured-div .box-featured-left .left-text-div .buttonclass  :hover{
+    background-color: #FFFFFF;
+    color: #073042;
+}
+.container1 .featured-div .box-featured-right .left-text-div .buttonclass  :hover{
+    background-color: #FFFFFF;
+    color: #073042;
+    border: none;
+}
+.container1 .featured-div .box-featured-right .content{
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 60px;
+
+}
+
+.container1 .featured-div .box-featured-right .left-text-div .buttonclass{
+   
+}
+.container1 .featured-div .box-featured-right .left-text-div button{
+    width: 130px;
+    height: 50px; 
+    color: #073042;
+    background-color: #D7EFFE;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    
+
+}
+
+.container1 .featured-div .image{
+    
+}
+.container1 .featured-div .box-featured-left .left-text-div button{
+
+}
+@media screen and (min-width : 701px){
+    .container1 .featured-div  .box-featured-left .left-text-div  img{
+        display: none;
+    }
+    .container1 .featured-div .box-featured-right .left-text-div img{
+        display: none;
+    }
+}
+@media screen and (max-width : 700px){
+    .container1 .featured-div{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: auto;
+        margin-top: 0;
+        padding-top: 0;
+
+    }
+    .container1 .featured-div .box-featured-left{
+        width:auto;
+        top :0px;
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        position: absolute;
+        position: relative;
+        height: 560px;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div .heading{
+        padding: 0;
+        font-size: 24px;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div .content{
+        height: 200px;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div .buttonclass{
+        width: 88%;
+        position: absolute;
+        height: 60px;
+        top: 300px;
+        margin: auto;
+
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div  .buttonclass button{
+        width: 100%;
+    
+    }
+    .container1 .featured-div  .box-featured-left .left-text-div  img{
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+        width: 130px;
+
+    }
+
+    .container1 .featured-div  .box-featured-left .right-img-div img{
+        display: none;
+    }
+
+
+
+    .container1 .featured-div .box-featured-right{
+        width: auto;
+        top:0px;
+        padding-top: 0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        position: relative;
+        margin-top: 20px;
+        height: 700px;   
+     
+    }
+
+    .container1 .featured-div .gap-div {
+        width: 100%;
+        height: 20px;
+        background-color: #FFFFFF;
+        display: none;
+        border-bottom: 20px #FFFFFF solid;
+    }
+
+    .container1 .featured-div .box-featured-right .left-text-div {
+        width: 100%;
+
+    }
+    
+    .container1 .featured-div .box-featured-right .left-text-div .heading {
+        width: auto;
+        font-size: 22px;
+
+    }
+   
+    .container1 .featured-div .box-featured-right .left-text-div .content {
+        width: 100%;
+        padding-bottom: 20px;
+        line-height: 1.8;
+    }
+    .container1 .featured-div .box-featured-right .left-text-div .buttonclass{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .container1 .featured-div .box-featured-right .left-text-div button{
+        width: 100%;
+        height: 50px;
+    }
+    .container1 .featured-div .box-featured-right .right-img-div{
+        display: none;
+    }
+    .container1 .featured-div .box-featured-right .left-text-div img{
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+        width: 140px;
+    }
+}
+/* ---------------FEATURED BOXES SECTION ENDS---------------------------------------- */

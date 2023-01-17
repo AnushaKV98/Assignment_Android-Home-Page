@@ -1096,3 +1096,79 @@
 
 }
 /* -----------------VISIT OUR COMMUNITY SECTION ENDS----------------------------- */
+/* ------------------------------FOOTER 1 BEGINS-------------------------------------- */
+.footer1{
+    width: 100%;
+    height: 150px;
+    background-color:#FFFFFF ;
+    margin: 50px 0px;
+    border-top: 0.5px gainsboro solid;
+    border-bottom: 0.5px gainsboro solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px 0px;
+
+}
+.footer1 .icons{
+    display: flex;
+     flex-direction: column; 
+    width: 175px;
+
+}
+.footer1 .icons img{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    margin-left: 56px;
+
+}
+.footer1 .icons .heading{
+    line-height: 1.5;
+    font-weight: bold;
+    text-align: center;
+
+}
+a:hover{
+    color: blue;
+}
+.footer1 .icons .content{
+    line-height: 1;
+    text-align: center;
+}
+@media screen and (max-width : 700px){
+    .footer1{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 175px;
+        margin-bottom: 10px;
+
+    }
+    .footer1 .icons{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-bottom: 10px;
+
+
+        
+    }
+    .footer1 .icons img{
+        width: 30px;
+        height: 30px;
+        padding-left: 0;
+        margin-left: 20px
+
+    }
+    .footer1 .icons .heading{
+        margin-left: 10px;
+        color: #5F6368;
+        font-size: 14px;
+    }
+    .footer1 .icons .content{
+        display: none;
+    }
+    
+}
+/* ----------------------------------FOOTER 1 ENDS------------------------------------- */

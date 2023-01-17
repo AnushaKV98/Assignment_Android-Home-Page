@@ -391,3 +391,291 @@
     }
 }
 /* ---------------FEATURED BOXES SECTION ENDS---------------------------------------- */
+
+
+/* --------------------- SECTION PLATFORM UPDATES BEGINS---------------------------------- */
+
+.platform-tool-updates{
+    width: 100%;
+    height: 1800px;
+    color: black;
+    background-color: #F8F9FA;
+    position: relative;
+    padding-top: 0;
+    
+}
+
+.platform-tool-updates .platform{
+    width: 250px;
+    height: 1150px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.platform-tool-updates .platform .image{
+    margin: 10px;
+}
+.platform-tool-updates  .heading{
+    font-size: 65px;
+    font-weight: bolder;
+    letter-spacing: 1.5;
+    line-height: 1.0;
+}
+.platform-tool-updates  .content{
+    color: #3C4043;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: 40px;
+
+}
+.platform-tool-updates  button{
+    width: 90%;
+    height: 50px;
+    background-color: #3DDC84;
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 1;
+    border-radius: 25px;
+    padding: 10px 24px;
+    border: none;
+
+}
+
+.platform-tool-updates .compose {
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+}
+
+.platform-tool-updates .main-image img{
+   width: 100%;
+   height: 200px;
+}
+.platform-tool-updates .blog{
+    width: 100%;
+    margin: 10px 0px ;
+    padding: 10px 0px;
+}
+.platform-tool-updates .heading{
+    font-size: 30px;
+}
+.platform-tool-updates .content{
+    padding-top: 50px;
+}
+
+.platform-tool-updates .whatsnew{
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+
+}
+.platform-tool-updates .google-pixel{
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+    top: 600px;
+
+}
+.platform-tool-updates .jetpack {
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+    top: 600px;
+
+}
+.platform-tool-updates .tool-updates{
+    position: absolute;
+    width: 260px;
+    height: 550px;
+    top: 1200px;
+
+
+}
+.platform-tool-updates .tool-updates .image {
+}
+.platform-tool-updates .tool-updates .image img{
+    height: 100px;
+    width: 100px;
+    align-self: flex-start;
+
+}
+.platform-tool-updates .tool-updates .heading{
+    margin-top: 10px;
+}
+.platform-tool-updates .tool-updates{
+}
+.platform-tool-updates .tool-updates button{
+    width: 150px;
+}
+.platform-tool-updates .flamingo{
+    position: absolute;
+    left: 420px;
+    width: 32%;
+    height: 550px;
+    top: 1200px;
+
+}
+.platform-tool-updates .electric-eel{
+    position: absolute;
+    width: 32%;
+    height: 550px;
+    right: 0px;
+    top: 1200px;
+
+}
+
+@media screen and (max-width : 700px)
+{
+    .platform-tool-updates{
+        width: 100%;
+        height: 3500px;
+        position: absolute;
+        top: 0px;
+        position: relative;
+    }
+    .platform-tool-updates .platform{
+        width: 100%;
+        height: 330px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        margin-bottom: 2px;
+        padding: 15px;
+    }
+    .platform-tool-updates .platform .image{
+        height: 80px;
+
+    }
+    .platform-tool-updates .platform .image img{
+        height: 80px;
+        width: 80px;
+        object-fit: contain;
+
+    }
+    .platform-tool-updates .platform .heading{
+        margin-bottom: 15px;
+
+    }
+    .platform-tool-updates .platform .content{
+        padding-top: 5px;
+        
+        
+    }
+    .platform-tool-updates .platform .button{
+        width: 330px;
+
+    }
+    .platform-tool-updates .platform .button button{
+        width: 100%;
+
+    }
+
+
+    .platform-tool-updates .compose{
+        width: 100%;        
+        height: 550px;
+        position: absolute;
+        top: 360px;
+        left: 0px;
+        margin-bottom: 2px;
+
+
+    }
+    .platform-tool-updates img{
+        object-fit: cover;
+    }
+    .platform-tool-updates .heading{
+        font-size: 24px;
+    }
+    .platform-tool-updates .content{
+        padding-top: 20px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .platform-tool-updates .whatsnew{
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 850px;
+        left: 0px;
+        margin-bottom: 2px;
+    }
+    .platform-tool-updates .google-pixel{
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 1300px;
+        left: 0px;
+        margin-bottom: 2px;
+    }
+    .platform-tool-updates .jetpack{
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 1750px;
+        left: 0px;
+        margin-bottom: 2px;
+    }
+    .platform-tool-updates .tool-updates{
+        width: 100%;
+        height: 360px;
+        position: absolute;
+        position: relative;
+        top: 2200px;
+        left: 0px;
+    }
+    .platform-tool-updates .tool-updates .heading{
+        width: 90%;
+        position: absolute;
+        top: 100px;
+        font-size: 32px;
+    }
+    .platform-tool-updates img{
+        object-fit: contain;
+    }
+
+    
+    .platform-tool-updates .tool-updates img{ 
+        position: absolute;
+        left: 0;
+        top : 0px;
+        width: 80px;
+    }
+    .platform-tool-updates .tool-updates .content{
+        position: absolute;
+        top: 120px;
+        width: 100%;
+        margin-top: 20px;
+
+    }
+    .platform-tool-updates .tool-updates .button{
+        position: absolute;
+        top : 220px;
+        width: 100%;
+    }
+    .platform-tool-updates .tool-updates .button button{
+        width: 100%;
+    }
+    .platform-tool-updates .flamingo{
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 2500px;
+        left: 0px;
+        margin-bottom: 10px;
+    }
+    .platform-tool-updates .electric-eel{
+        width: 100%;
+        height: 550px;
+        position: absolute;
+        top: 3000px;
+        left: 0px;
+
+    }
+}
+/* --------------------- SECTION PLATFORM UPDATES ENDS---------------------------------- */
